@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+.contenedor {
+    /*width: 95%;*/
+}
+.caja {
+    /*   margin-top: 200px;
+    height: 400px;
+    background-color: yellow;
+    width: 90%;
+    margin: 0px 100px;*/
+}
+.navegacion {
+    /*   height: 100px;
+    margin-bottom: 25px;*/
+}
+.letrasnav {
+    /*  float: left;
+    width: 25%;
+*/
+}
+.botonesnav {
+    /* margin-top: 20px;
+    float: right;*/
+}
+.cajafecha {
+    float: right;
+    clear: both;
+}
+.cajafecha input {
+    cursor: pointer;
+    margin: 20px;
+    height: 25px;
+    font-size: 20px;
+}
+.nombreproyecto {
+    width: 50% !important;
+    margin: 2px 2px 2px 170px;
+}
+.muestracronometro input {
+    /*   margin-left: 200px;
+    clear: left;*/
+}
+.botonesmenu {
+    float: right;
+}
+.mostrar input {
+    width: 100%;
+}
+.startReset [type="button"] {
+    width: 40%;
+    margin-right: 20px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid gray;
+    background-color: #F1C80F;
+}
+.startReset [type="button"]:hover {
+    /*background-color: blue;*/
+    cursor: pointer;
+}
+.startReset {
+    margin-top: 10px;
+    padding: 20px 0px 20px 100px;
+}
+[type="button"] {
+    border-radius: 10px;
+    /*width: 25%;*/
+    /*height: 50px;*/
+}
+.botonesmenu [type="button"] {
+    width: 120px;
+    border: none;
+    height: 40px;
+    margin-right: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 100px;
+}
+.cronometro {
+    margin-top: 25px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 400%;
+}
+.descripciontarera textarea {
+    float: right;
+    width: 90%;
+    height: 120px;
+    resize: none;
+}
+.w3-yellow {
+    height: 90%;
+}
+label {
+    width: 100px;
+}
+.w3-modal {
+    /*width: 50%;*/
+    overflow-y: hidden;
+    /* Hide vertical scrollbar */
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+}
+.w3-modal-content {
+    padding: 50px;
+}
+@media screen and (max-width: 1000px) {
+    .startReset [type="button"] {
+        width: 30%;
+        margin-right: 20px;
+        height: 50px;
+        border-radius: 25px;
+        border: 1px solid gray;
+        background-color: #F1C80F;
+    }
+    .nombreproyecto {
+        width: 100% !important;
+        margin: 2px 2px 2px 2px;
+    }
+    .descripciontarera {
+        margin-top: 15px;
+    }
+    .descripciontarera textarea {
+        float: right;
+        width: 100%;
+        height: 120px;
+        resize: none;
+    }
+}
+@media screen and (max-width: 400px) {
+    .startReset [type="button"] {
+        width: 100%;
+        margin-bottom: 15px;
+        margin-right: 20px;
+        height: 50px;
+        border-radius: 25px;
+        border: 1px solid gray;
+        background-color: #F1C80F;
+    }
+    .startReset {
+        margin-top: 10px;
+        padding: 20px 0px 20px 20px;
+    }
+    .cronometro {
+        margin-top: 25px;
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        font-size: 200%;
+    }
+    .cajafecha input {
+        cursor: pointer;
+        margin: 20px 20px 20px -40px;
+        height: 20px;
+        font-size: 15px;
+        width: 80%;
+    }
+    .contenedorfecha {
+        padding: 0px 0px 0px 120px;
+    }
+    .cajafecha {
+        float: none;
+        clear: both;
+    }
+    .nombretarea input {
+        width: 100% !important;
+    }
+}
